@@ -40,7 +40,7 @@ try:
 	open('prox.txt','w').write(prox) 
 except Exception as e:
 	print('\x1b[1;97m\x1b[1;96m\x1b[1;92m \x1b[1;96m[\x1b[1;91m[MX')
-prox=open('.prox.txt','r').read().splitlines()
+prox=open('prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
